@@ -1,0 +1,26 @@
+.ga4-most-visited-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ga4-most-visited-list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  margin: 0;
+}
+
+.ga4-most-visited-list ul li .views {
+  min-width: 100px;
+  padding: 0 20px 0 0;
+  text-align: right;
+  font-weight: bold;
+}
+
+.ga4-most-visited-list ul li a {
+  text-decoration: none;
+  color: var(\-\-90);
+}
+

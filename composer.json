@@ -1,0 +1,32 @@
+{
+    "name": "minsolutions/nova-ga4-analytics",
+    "description": "A Laravel Nova card.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "^3.0",
+        "akki-io/laravel-google-analytics": "^1.7"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "MinSolutions\\Ga4Analytics\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MinSolutions\\Ga4Analytics\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
